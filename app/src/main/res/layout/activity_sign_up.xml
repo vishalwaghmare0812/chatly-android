@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
+    tools:context=".SignUp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/pic"
+        app:civ_border_color="?attr/colorAccent"
+        app:civ_border_width="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/signtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Let's create an account for you!"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image"
+        app:layout_constraintStart_toStartOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+
+    <EditText
+        android:id="@+id/signName"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/signtxt"
+        app:layout_constraintStart_toStartOf="@+id/signtxt"
+        app:layout_constraintTop_toBottomOf="@+id/signtxt" />
+
+    <EditText
+        android:id="@+id/signEmail"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/signName"
+        app:layout_constraintStart_toStartOf="@+id/signName"
+        app:layout_constraintTop_toBottomOf="@+id/signName" />
+
+    <EditText
+        android:id="@+id/signPass"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/signEmail"
+        app:layout_constraintStart_toStartOf="@+id/signEmail"
+        app:layout_constraintTop_toBottomOf="@+id/signEmail" />
+
+    <Button
+        android:id="@+id/signBtn"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="?attr/colorSecondary"
+        android:text="Sign Up"
+        android:textColor="?attr/colorAccent"
+        android:textSize="23dp"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/signPass"
+        app:layout_constraintStart_toStartOf="@+id/signPass"
+        app:layout_constraintTop_toBottomOf="@+id/signPass" />
+
+    <TextView
+        android:id="@+id/rg_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log in"
+        android:textSize="15sp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signBtn"
+        app:layout_constraintVertical_bias="0.2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:id="@+id/receiverMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello good morning"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="?attr/colorAccent"
+            android:background="?attr/colorSecondary"
+            android:padding="10dp"
+            android:textAlignment="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

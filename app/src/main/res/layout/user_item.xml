@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lh"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingVertical="14dp"
+    android:paddingHorizontal="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userPic_item"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:src="@drawable/pic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userName_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Robert Fox"
+        android:textColor="?attr/colorAccent"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toEndOf="@id/userPic_item"
+        app:layout_constraintTop_toTopOf="@id/userPic_item"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/userStatus_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Thnx!"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/userPic_item"
+        app:layout_constraintStart_toEndOf="@id/userPic_item"
+        app:layout_constraintTop_toBottomOf="@id/userName_item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

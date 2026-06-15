@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <color name="white">#FFFFFFFF</color>-->
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="dark_grey">#141414</color>-->
+
+    <color name="mid_grey">#E0E0E0</color>
+    <color name="green_vibrant">#3CB043</color>
+    <color name="green_emerald">#40B548</color>
+
+<!--     old color-->
+<!--        <color name="black">#141414</color>-->
+        <color name="dark_grey">#2c2c2c</color>
+    <!--    <color name="white">#FFFFFFFF</color>-->
+        <color name="off_white">#ECECEC</color>
+        <color name="dominant_green">#88BF48</color>
+
+<!--     New color-->
+    <color name="white">#FFFFFFFF</color>
+<!--    <color name="off_white">#dedfde</color>-->
+    <color name="black">#171616</color>
+<!--    <color name="dark_grey">#333333</color>-->
+<!--    <color name="dominant_green">#52bf55</color>-->
+
+</resources>
