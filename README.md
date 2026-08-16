@@ -1,13 +1,7 @@
-# Chatly 💬
+# Chatly 
+A minimal and modern Android chat application focused on real-time messaging, Firebase integration, and modern Android development.
 
-A minimal and modern person-to-person chat application built for simple communication.
-
-## 📱 About
-
-Chatly is a minimal Android chat application focused on real-time messaging, Firebase integration, and modern Android development.
-
-## ✨ Features
-
+## Features
 - Email & password authentication
 - User profile setup
 - Active user status
@@ -15,8 +9,7 @@ Chatly is a minimal Android chat application focused on real-time messaging, Fir
 - Light & dark theme
 - Minimal modern UI
 
-## 🛠 Tech Stack
-
+##  Tech Stack
 - Java
 - XML
 - Android SDK
@@ -24,13 +17,4 @@ Chatly is a minimal Android chat application focused on real-time messaging, Fir
 - Firebase Realtime Database
 - Firebase Storage
 
-## 🚀 Future Improvements
-
-- Group chats
-- Better notifications
-- Image & file sharing
-
-## 👨‍💻 Developer
-
-**Vishal Waghmare**  
-Student | Android Developer Learner
+![Calculator Screenshot](https://github.com/vishalwaghmare0812/chatly-android/blob/master/Chatly.jpeg?raw=true)
